@@ -28,7 +28,7 @@
     "client:mongodb": "prisma generate --schema stores/mongodb/mongodb.prisma"
   },
   "dependencies": {
-    "@aws-sdk/client-s3": "^3.171.0",
+    "@aws-sdk/client-s3": "^3.350.0",
     "@evops/hcl-terraform-parser": "^1.0.0",
     "@google-cloud/storage": "^5.15.6",
     "body-parser": "^1.19.0",
