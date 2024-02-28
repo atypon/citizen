@@ -7,7 +7,7 @@
 replicaCount: 1
 
 image:
-  repository: gcr.io/atypon-devops/citizin
+  repository: us-central1-docker.pkg.dev/atypon-artifact/docker-registry/atypon-devops/citizin
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
   tag: "v0.2.1"
